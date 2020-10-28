@@ -1,5 +1,4 @@
 ﻿# Rsyslog-GUI
-![enter image description here](https://www.pimpmylog.com/assets/PML.png =350x)![enter image description here](https://www.unixtutorial.org/images/software/rsyslog.png =500x)
 Docker image of Rsyslog with Pimpmylog GUI based on debian:stable-slim (latest)
 
 Software used:
