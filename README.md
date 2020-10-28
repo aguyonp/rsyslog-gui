@@ -1,4 +1,6 @@
 ﻿# Rsyslog-GUI
+![enter image description here](https://www.rsyslog.com/files/2018/02/rsyslog-logo-512x512.png)
+
 Docker image of Rsyslog with Pimpmylog GUI based on debian:stable-slim (latest)
 
 Software used:
