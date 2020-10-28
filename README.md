@@ -36,7 +36,7 @@ Without specifying login and password
     docker run -d -p 80:80 -p 514:514 aguyonnet/rsyslog-gui
 By specifying a login and password
 
-    docker run -d -e SYSLOG_USERNAME=hello -e SYSLOG_PASSWORD=mypassword -p 80:80 -p 514:514 aguyonnet/rsyslog-gui
+    docker run -d -e SYSLOG_USERNAME=hello -e SYSLOG_PASSWORD=mypassword -p 80:80 -p 514:514/udp aguyonnet/rsyslog-gui
 
 ## Docker-compose it !
 
@@ -48,6 +48,6 @@ By specifying a login and password
           - SYSLOG_PASSWORD=mypassword
         ports:
           - '80:80'
-          - '514:514'
+          - '514:514/udp'
         image: aguyonnet/rsyslog-gui
         restart: always
