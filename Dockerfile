@@ -47,7 +47,7 @@ COPY run.sh /
 # ------------- FIN SCRIPT STARTUP ---------------
 
 # OUVERTURE DU PORT HTTP
-EXPOSE 80 514
+EXPOSE 80 514/udp
 
 #CREATION VOLUME LOGs
 VOLUME [ "/var/log/net/" ]
